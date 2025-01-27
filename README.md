@@ -1,9 +1,5 @@
 # ZPO Project - Your Deepness Model
-This is a template for a Project.
-Please follow the structure below and address all required points.
-Please put it in a public repository.
-
-AT THE TOP OF THIS README ADD AN IMAGE/GIF WITH EXAMPLE MODEL PREICTION, AS A BANNER
+![banner](https://github.com/user-attachments/assets/fd38583b-0cd6-4013-8cd7-eebd29a1bb40)
 
 We reecommend making this README pleaseant to read, you can later use it as portfolio `:)`
 
