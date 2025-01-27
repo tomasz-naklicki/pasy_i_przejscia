@@ -18,6 +18,14 @@ The values of input channels are normalized to range [0, 1] before training.
 The code is available in an interactive notebook form. Running the cells in order enables the user to go through the process of loading data, training the model, testing and exporting. The Python version used during development is `3.11`.
 
 ## Results
+### Example images from the dataset
+![dataset](https://github.com/user-attachments/assets/fd52173d-8766-4972-8ce4-20d5782c76df "title")
+
+### Examples of good predictions
+![good_predictions](https://github.com/user-attachments/assets/62f8da36-9d69-42de-9ebf-104795e4abe9)
+
+### Examples of bad predictions
+![bad_predictions](https://github.com/user-attachments/assets/a5fdf019-9997-4efc-b4d5-13c1ba565fb2)
 
 - IoU for the `train` dataset: 0.995
 - IoU for the `test` dataset: 0.987
@@ -26,8 +34,14 @@ The code is available in an interactive notebook form. Running the cells in orde
 An example trained model in ONNX format can be downloaded [here](https://drive.google.com/file/d/1T9_UnAeZTEYZkS8-OU6t4Sa2MRA9k9z6/view?usp=sharing). It includes all metadata necessary to use in the `Deepness` plugin in `QGIS`.
 
 ## Demo instructions and video
+![video_example](https://github.com/user-attachments/assets/20868af7-8fdc-4fa1-85f6-32d7bb3ca33d)
 
-The ortophoto used in the demo is `"Poznan 2022 aerial orthophoto high resolution"`, and the location is the crossing near the Politechnika tram stop.
+The ortophoto used in the demo is `"Poznan 2022 aerial orthophoto high resolution"`, and the location is the crossing near the Politechnika tram stop. Other settings used:
+- **resolution** - 10 cm/px
+- **batch size** - 1
+- **tiles overlap** - 15%
+- **class probability threshold** - 0.5
+- **dilation/erosion size** - 9 px
 
 ## People
 - Maciej Brąszkiewicz 147531
