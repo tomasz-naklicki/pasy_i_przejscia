@@ -1,4 +1,4 @@
-# ZPO Project - Your Deepness Model
+# ZPO Project - Deepness Segmentation Model
 ![banner](https://github.com/user-attachments/assets/fd38583b-0cd6-4013-8cd7-eebd29a1bb40)
 
 A segmentation model for finding pedestrian and bicycle crossings on satellite images. Based on the examples from [segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) by Pavel Iakubovskii.
