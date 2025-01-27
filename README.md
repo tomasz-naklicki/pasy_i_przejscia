@@ -1,6 +1,8 @@
 # ZPO Project - Your Deepness Model
 ![banner](https://github.com/user-attachments/assets/fd38583b-0cd6-4013-8cd7-eebd29a1bb40)
 
+A segmentation model for finding pedestrian and bicycle crossings on satellite images. Based on the examples from [segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) by Pavel Iakubovskii.
+
 ## Dataset
 Model was trained on a dataset of ~1100 satellite images of Poznan, taken from the Poznan 2022 dataset available in https://qms.nextgis.com/. The full dataset is available [here](https://drive.google.com/file/d/1synechPaO5nK8iK8XE_6utxdJ9_LcOLf/view?usp=sharing). In total, there are around 1200 bicycle crossings and 1900 pedestrian crossings annotated. There was no preprocessing performed on the images in dataset. The images are available in **train**, **test** and **valid** folders, and corresponding mask files are located in **trainannot**, **testannot** and **validannot** folders. All images and masks are in png format, and have 512x512 resolution.
 
